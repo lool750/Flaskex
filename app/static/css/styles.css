@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+<!--Container-->
+.container{
+    width: 920px;
+    height: auto;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+h1, h2{
+    margin-top: 20px;
+}
+
+.texto1{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+.texto2{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    align: center;
+}
+
+
+<!--Carroussel-->
+.carouselExampleFader{
+
+}
+
+
+html, body{
+    background-color:lightgray;
+    text-align: center;
+    display: block;
+
+}
+
+
+<!--nav-->
+
+.navbar-nav{
+    text-align: center;
+}
+
+<!--fomulários-->
+
+form, label{
+    text-align: center;
+    display: list-item;
+    font-size: 47px;
+    text-decoration: none;
+}
+
+buttom{
+    margin-bottom: 10px;
+}
+
+.botaoexcluir{
+    margin-top: 30px;
+}
+.botoesconsulta{
+    margin-top:30px;
+}
+
+.botoesAtualizacao{
+    margin-top:30px;
+}
+button{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+<!--FOOTER-->
+
+

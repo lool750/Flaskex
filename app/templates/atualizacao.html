@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+
+    <form action="/atualizarCpf" method="POST">
+        <label>CPF: </label>
+        <input type="text" name="cpf" id="cpf"/><br><br>
+
+        <label>Nome: </label>
+        <input type="text" name="nome" id="nome"/><br><br>
+
+        <label>Telefone: </label>
+        <input type="text" name="telefone" id="telefone"/><br><br>
+
+        <label>Endereço: </label>
+        <input type="text" name="endereco" id="endereco"/><br><br>
+
+        <button type="submit">Atualizar</button>
+    </form>
+
+    <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4"></div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © TechSoluciona
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+{% endblock %}

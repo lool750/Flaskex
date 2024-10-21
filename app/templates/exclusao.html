@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+
+    <form action="/excluir">
+         <label>CPF: </label>
+         <input type="text" name="cpf" id="cpf"/><br><br>
+         <button type="submit">Excluir</button>
+    </form>
+    <div class="container">
+        <div class="botaoexcluir">
+            <a href="/excluir" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Excluir Chave</a>
+        </div>
+    </div>
+
+
+    <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4"></div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © TechSoluciona
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+{% endblock %}
